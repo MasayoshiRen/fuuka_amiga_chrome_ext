@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name":"Fuuka Amiga",
+    "version":"2.0.0",
+    "description":"Fuuka from the hit game Persona 3 as your awesome browser friend :D",
+    "action":{
+        "default_popup":"src/popup/index.html",
+        "default_title":"testando",
+        "default_icon":{
+            "16": "icons/iconfuuka_16.png",
+            "32": "icons/iconfuuka_32.png",
+            "48": "icons/iconfuuka_48.png",
+            "128": "icons/iconfuuka_128.png"
+        }
+    },
+    "icons":{
+        "16": "icons/iconfuuka_16.png",
+        "32": "icons/iconfuuka_32.png",
+        "48": "icons/iconfuuka_48.png",
+        "128": "icons/iconfuuka_128.png"
+    },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'"
+  }
+
+}
